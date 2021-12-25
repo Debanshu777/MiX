@@ -1,4 +1,4 @@
-package com.template
+package com.debanshu777
 
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.platform.app.InstrumentationRegistry
@@ -17,6 +17,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.adammcneilly.TODOREPLACE", appContext.packageName)
+        assertEquals("com.debanshu777.MiX", appContext.packageName)
     }
 }
